@@ -1,17 +1,16 @@
-@'
-node_modules/
+﻿node_modules/
 .next/
 .turbo/
 dist/
+build/
 out/
 coverage/
+project-exports/
 
 .env
-.env.local
-.env.*.local
+.env.*
 !.env.example
 
 *.tsbuildinfo
 .DS_Store
 Thumbs.db
-'@ | Set-Content -Encoding utf8 .gitignore
